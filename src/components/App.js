@@ -10,6 +10,7 @@ const App = () => {
        <input type="text" id="name" onChange={e=>settext(e.target.value)}></input>
        <p>{text}</p>
     </div>
+    
   )
 }
 
