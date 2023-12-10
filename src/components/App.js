@@ -12,7 +12,7 @@ const App = () => {
         id="name" 
         onChange={e => setText(e.target.value)} 
       />
-     {text && text.length>0?<p>Hello {text}!</p>:""}
+     <p>{text && text.length>0?"Hello "+ text+"!":""}</p>
     </div>
   );
 }
